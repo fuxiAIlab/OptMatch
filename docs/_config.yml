@@ -5,4 +5,4 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
 paper_link:
-data_link: https://github.com/linxiagong/OptMatch/tree/master/data
+data_link: /data

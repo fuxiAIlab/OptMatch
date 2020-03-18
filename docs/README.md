@@ -1,8 +1,4 @@
----
-layout: default
----
-
-# Intro to OptMatch
+# OptMatch
 As the paper is under review, we don't put many details here for the moment.
 
 # Datasets
