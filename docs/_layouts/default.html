@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {% seo %}
-<!--    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">-->
-    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -34,12 +33,12 @@
         {% if site.show_downloads %}
         <ul class="downloads">
           {% if site.paper_link %}
-          <li><a href="{{ site.paper_link | relative_url }}">Download <strong>PDF File</strong></a></li>
+          <li><a href="{{ site.github.repository_url | append: site.paper_link }}">Download <strong>PDF File</strong></a></li>
           {% else %}
           <li style="background-color: #ffffff;pointer-events: none;"><a style="color: #dddddd;">Download <strong style="color: #bbbbbb;">PDF File</strong></a></li>
           {% endif %}
           {% if site.data_link %}
-          <li><a href="{{ site.data_link | relative_url }}">Download <strong>Datasets</strong></a></li>
+          <li><a href="{{ site.github.repository_url | append: site.data_link  }}">Download <strong>Datasets</strong></a></li>
           {% else %}
           <li style="background-color: #ffffff;pointer-events: none;"><a style="color: #dddddd;">Download <strong style="color: #bbbbbb;">Datasets</strong></a></li>
           {% endif %}

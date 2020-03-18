@@ -5,4 +5,4 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
 paper_link:
-data_link: /data
+data_link: /tree/master/data
