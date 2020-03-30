@@ -109,6 +109,11 @@ img {
   max-width:100%;
 }
 
+strong {
+  color:#8C1732;
+  font-weight:700;
+}
+
 header {
   width:270px;
   float:left;
@@ -159,11 +164,6 @@ header ul a:active {
   background-color:#f0f0f0;
 }
 
-strong {
-  color:#8C1732;
-  font-weight:700;
-}
-
 header ul li + li + li {
   border-right:none;
   width:89px;
@@ -173,6 +173,60 @@ header ul a strong {
   font-size:14px;
   display:block;
   color:#222;
+}
+
+header .pagenav {
+  nav {
+    margin-top: 5px;
+    width: 250px;
+    text-align: right;
+  }
+
+  ul {
+    background: none;
+    border: none;
+    list-style: none;
+    font-size: 13px;
+    height: auto;
+    width: inherit;
+  }
+
+  li {
+    padding: 0;
+    line-height: inherit;
+    margin-top: 5px;
+    height: 16px;
+    width: 100%;
+    border: none;
+
+    &.tag-h1 {
+      font-size: 1.2em;
+
+      a {
+        font-weight: bold;
+        color: #333;
+      }
+
+      + .tag-h2 {
+
+      }
+    }
+
+    &.tag-h2 {
+
+      + .tag-h1 {
+        margin-top: 10px;
+      }
+    }
+    a {
+      //color: #666;
+      text-align: right;
+      font-size: inherit;
+
+      //&:hover { color: #999; }
+    }
+
+  }
 }
 
 section {
@@ -233,6 +287,10 @@ footer {
     right:50px;
     top:52px;
   }
+
+  header .pagenav {
+    display: none;
+  }
 }
 
 @media print, screen and (max-width: 720px) {
@@ -246,6 +304,10 @@ footer {
 
   header ul, header p.view {
     position:static;
+  }
+
+  header .pagenav {
+    display: none;
   }
 
   pre, code {
@@ -265,6 +327,10 @@ footer {
   header li, header ul li + li + li {
     width:33%;
   }
+
+  header .pagenav {
+    display: none;
+  }
 }
 
 @media print {
@@ -274,4 +340,3 @@ footer {
     color:#444;
   }
 }
-
