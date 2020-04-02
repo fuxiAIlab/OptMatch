@@ -34,13 +34,13 @@
 
         {% if site.show_downloads %}
         <ul>
-          {% if site.paper_link %}
+          {% if site.show_downloads.paper_link %}
           <li><a href="{{ site.github.repository_url | append: site.paper_link }}">Download <strong>PDF File</strong></a></li>
           {% else %}
           <li style="background-color: #ffffff;pointer-events: none;"><a style="color: #dddddd;">Download <strong style="color: #bbbbbb;">PDF File</strong></a></li>
           {% endif %}
-          {% if site.data_link %}
-          <li><a href="{{ '/data_analysis/' | absolute_url }}">Download <strong>Datasets</strong></a></li>
+          {% if site.show_downloads.data_link %}
+          <li><a href="{{ './data_analysis/' | absolute_url }}">Download <strong>Datasets</strong></a></li>
           {% else %}
           <li style="background-color: #ffffff;pointer-events: none;"><a style="color: #dddddd;">Download <strong style="color: #bbbbbb;">Datasets</strong></a></li>
           {% endif %}
