@@ -4,3 +4,4 @@ Gemfile.lock
 *.gem
 .jekyll-cache
 .idea
+*.xlsx

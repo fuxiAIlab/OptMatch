@@ -6,7 +6,7 @@
 | Dataset        | Matches          | Heroes | Players |
 |:-------------|------------------:|------:|---:|
 | Dota2 (5v5)      | 50,000 | 113 | 10,815  |
-| LOL (5v5) | 187,588   | 139 | 43,706  |
+| LOL Championship (5v5) | 187,588   | 139 | 43,706  |
 | NBA           | 3,342      | / | 949   |
 | Industrial Dataset\*           | 851,648 | 40 | 33,873  |
 
@@ -18,8 +18,8 @@ The Industrial Dataset contains the current matches in an Online Game. (Currentl
     - Detail page
     - Full data link: [Google Cloud](https://drive.google.com/open?id=1xBfluC5WeV1ro1miQ47h-S0AEfZ8eukO) or [Baidu Cloud(832d)](https://pan.baidu.com/s/1uD9fP8yxidAefppcADRBcg)
 
-2. LOL
-    - [Detail page](./lol/)
+2. LOL Championship
+    - [Detail page](./lol_championship/)
     - Full data link: [Google Cloud](https://drive.google.com/open?id=1FNhM06dmrVkL1WykUOXhIaSQkg3JBcac) or [Baidu Cloud(bg8e)](https://pan.baidu.com/s/1JgWLwZ-miailNGaJJEFQxg)
 3. NBA
     - Detail page
