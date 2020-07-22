@@ -1,0 +1,9 @@
+theme: jekyll-theme-minimal
+title: OptMatch
+logo:
+description: 'This is the detail page of the paper <br><strong><em>OptMatch: Optimized Matchmaking via Modeling the High-Order Interactions on the Arena</em></strong>'
+google_analytics:
+show_downloads:
+  paper_link:
+  data_link: true
+  show_github_link: true
