@@ -1,9 +1,9 @@
 theme: jekyll-theme-minimal
 title: OptMatch
 logo:
-description: 'This is the detail page of the paper <br><strong><em>OptMatch: Optimized Matchmaking via Modeling the High-Order Interactions on the Arena</em></strong>'
+description: 'This is the detail page of the paper <br><strong><em>OptMatch: Optimized Matchmaking via Modeling the High-Order Interactions on the Arena</em></strong><br><b>accepted by KDD2020 ADS Oral</b>'
 google_analytics:
 show_downloads:
-  paper_link:
+  paper_link: true
   data_link: true
   show_github_link: true

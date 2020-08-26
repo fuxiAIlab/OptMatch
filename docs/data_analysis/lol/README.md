@@ -1,7 +1,7 @@
 # LOL (League of Legends)
 
 **LOL (5v5)** contains 623,263 matches, with 145 heroes involved. Unfortunately, no unique participantId is given for every player across all the matches.
-Full data link: [Google Cloud](https://drive.google.com/open?id=1FNhM06dmrVkL1WykUOXhIaSQkg3JBcac) or [Baidu Cloud(bg8e)](https://pan.baidu.com/s/1JgWLwZ-miailNGaJJEFQxg)
+Full data link: [Google Cloud](https://drive.google.com/file/d/1Ff7czpeDpX-sIgIiWNpRgpNYlelo7SQu/view?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1f0svnsbbzRhyA3iJhyYk0A) (code: m5h3)
 
 [<< View the data analysis of all the datasets](../)
 

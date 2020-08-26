@@ -7,7 +7,7 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
+<!--    <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>-->
     <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -35,7 +35,7 @@
         {% if site.show_downloads %}
         <ul>
           {% if site.show_downloads.paper_link %}
-          <li><a href="{{ site.github.repository_url | append: site.paper_link }}">Download <strong>PDF File</strong></a></li>
+          <li><a href="{{ './KDD2020_OptMatch.pdf' | absolute_url }}">Download <strong>PDF File</strong></a></li>
           {% else %}
           <li style="background-color: #ffffff;pointer-events: none;"><a style="color: #dddddd;">Download <strong style="color: #bbbbbb;">PDF File</strong></a></li>
           {% endif %}
@@ -46,11 +46,16 @@
           {% endif %}
           <li><a href="{{ site.github.repository_url }}" target="_blank">View On <strong>GitHub</strong></a></li>
         </ul>
-        <div class="pagenav">
-        <nav>
-          <ul></ul>
-        </nav>
+        <div>
+          <a href="https://www.kdd.org/kdd2020/accepted-papers/view/optmatch-optimized-matchmaking-via-modeling-the-high-order-interactions-on-">>> KDD2020 paper webpage</a>
+          <br><a href="https://drive.google.com/file/d/1ASm4qNrFMJDStzARD191X6l97IUq_O3F/view?usp=sharing">>> Introduction video (3min)</a>
+          <br><a href="https://drive.google.com/file/d/1a1Gf-DXz0w2q4avFtI1g9eKEN4CYQpIk/view?usp=sharing">>> Presentation video (16min) </a> [<a href="https://drive.google.com/file/d/1TJ481G8Vx3hxXvrKpIwDdbz-TLBNREAn/view?usp=sharing">slides</a>]
         </div>
+<!--        <div class="pagenav">-->
+<!--        <nav>-->
+<!--          <ul></ul>-->
+<!--        </nav>-->
+<!--        </div>-->
         {% endif %}
 
       </header>
